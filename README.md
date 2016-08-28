@@ -119,7 +119,7 @@ You can find all available languages here [https://github.com/google/protobuf](h
 
 # Libraries
 
-If you don't want to compile POGOProtos but instead use it directly, check out the following repository.
+If you don't want to compile POGOProtos but instead use it directly, check out the following repositories.
 
 *More will be added later when most proto files are added.*
 
