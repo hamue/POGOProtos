@@ -49,10 +49,10 @@ message SignalAgglomUpdates {
 	message IOSDeviceInfo {
 		bool bool1 = 1;
 		bool bool2 = 2;
-		bool bool3 = 3; // 1
+		bool bool3 = 3;  // 1
 		bool bool4 = 4;
-		bool bool5 = 5; // 1
-		bool bool6 = 6; // 1
+		bool bool5 = 5;  // 1
+		bool bool6 = 6;  // 1
 		bool bool7 = 7;
 		bool bool8 = 8;
 		bool bool9 = 9;
@@ -60,8 +60,7 @@ message SignalAgglomUpdates {
 	}
 
 	// 100% - Reference iOS lib "LocationUpdate" structure for bridge
-	message SensorUpdate
-	{
+	message SensorUpdate {
 		uint64 timestamp = 1;
 		double acceleration_x = 3;
 		double acceleration_y = 4;
@@ -82,32 +81,31 @@ message SignalAgglomUpdates {
 		int32 status = 19;
 	}
 
-	message DeviceInfo 
-	{
+	message DeviceInfo {
 		string device_id = 1;
 		string android_board_name = 2;
 		string android_bootloader = 3;
 		string device_brand = 4;             // product.brand
-        string device_model = 5;             // product.device
- 		string device_model_identifier = 6;  // Android only, build.display.id
- 		string device_comms_model = 7;       // boot.hardware
- 		string hardware_manufacturer = 8;    // product.manufacturer
- 		string hardware_model = 9;           // product.model
- 		string firmware_brand = 10;          // On iOS: "iPhone OS", product.name
- 		string firmware_tags = 12;           // Android only, build.tags
- 		string firmware_type = 13;           // On iOS instead: iOS version; // build.type
- 		string firmware_fingerprint = 14;    // Android only, build.fingerprint
- 	}
+		string device_model = 5;             // product.device
+		string device_model_identifier = 6;  // Android only, build.display.id
+		string device_comms_model = 7;       // boot.hardware
+		string hardware_manufacturer = 8;    // product.manufacturer
+		string hardware_model = 9;           // product.model
+		string firmware_brand = 10;          // On iOS: "iPhone OS", product.name
+		string firmware_tags = 12;           // Android only, build.tags
+		string firmware_type = 13;           // On iOS instead: iOS version; // build.type
+		string firmware_fingerprint = 14;    // Android only, build.fingerprint
+	}
 
 	message AndroidGpsInfo {
-        uint64 time_to_fix = 1;
-        repeated int32 satellites_prn = 2;
-        repeated float azimuth = 3;
-        repeated float elevation = 4;
-        repeated float snr = 5;
-        repeated bool has_almanac = 6;
-        repeated bool has_ephemeris = 7;
-        repeated bool used_in_fix = 8;
+		uint64 time_to_fix = 1;
+		repeated int32 satellites_prn = 2;
+		repeated float azimuth = 3;
+		repeated float elevation = 4;
+		repeated float snr = 5;
+		repeated bool has_almanac = 6;
+		repeated bool has_ephemeris = 7;
+		repeated bool used_in_fix = 8;
 	}
 }
 
