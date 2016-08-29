@@ -4,10 +4,10 @@ package POGOProtos.Map.Fort;
 import "POGOProtos/Enums/PokemonId.proto";
 import "POGOProtos/Enums/TeamColor.proto";
 import "POGOProtos/Inventory/Item/ItemId.proto";
-import "POGOProtos/Map/Fort/FortType.proto";
-import "POGOProtos/Map/Fort/FortSponsor.proto";
-import "POGOProtos/Map/Fort/FortRenderingType.proto";
 import "POGOProtos/Map/Fort/FortLureInfo.proto";
+import "POGOProtos/Map/Fort/FortRenderingType.proto";
+import "POGOProtos/Map/Fort/FortSponsor.proto";
+import "POGOProtos/Map/Fort/FortType.proto";
 
 message FortData {
 	string id = 1;

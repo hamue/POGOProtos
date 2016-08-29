@@ -3,8 +3,8 @@ package POGOProtos.Networking.Responses;
 
 import "POGOProtos/Data/PokemonData.proto";
 import "POGOProtos/Enums/TeamColor.proto";
-import "POGOProtos/Map/Fort/FortType.proto";
 import "POGOProtos/Map/Fort/FortModifier.proto";
+import "POGOProtos/Map/Fort/FortType.proto";
 
 message FortDetailsResponse {
 	string fort_id = 1;
