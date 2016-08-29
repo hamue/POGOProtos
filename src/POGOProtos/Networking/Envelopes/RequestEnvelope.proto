@@ -29,7 +29,6 @@ message RequestEnvelope {
 		}
 	}
 
-
 	message PlatformRequest {
 		.POGOProtos.Networking.Platform.PlatformRequestType type = 1;
 		bytes request_message = 2;
