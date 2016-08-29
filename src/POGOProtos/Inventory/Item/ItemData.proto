@@ -4,7 +4,7 @@ package POGOProtos.Inventory.Item;
 import "POGOProtos/Inventory/Item/ItemId.proto";
 
 message ItemData {
-	.POGOProtos.Inventory.Item.ItemId item_id = 1;
+	.POGOProtos.Inventory.Item.ItemId item = 1;
 	int32 count = 2;
 	bool unseen = 3;
 }

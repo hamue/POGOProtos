@@ -1,7 +1,9 @@
 syntax = "proto3";
 package POGOProtos.Networking.Requests.Messages;
 
+import "POGOProtos/Inventory/Item/ItemId.proto";
+
 message GetInventoryMessage {
-	int64 last_timestamp_ms = 1;
-	int32 item_been_seen = 2;  // TODO: Find out what this is.
+	int64 timestamp_millis = 1;
+	repeated .POGOProtos.Inventory.Item.ItemId item_been_seen = 2;
 }

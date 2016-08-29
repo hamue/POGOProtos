@@ -4,8 +4,8 @@ package POGOProtos.Networking.Responses;
 import "POGOProtos/Networking/Responses/FortDetailsResponse.proto";
 
 message FortRecallPokemonResponse {
-	.POGOProtos.Networking.Responses.FortRecallPokemonResponse.Result result = 1;
-	.POGOProtos.Networking.Responses.FortDetailsResponse fort_details = 2;
+	Result result = 1;
+	.POGOProtos.Networking.Responses.FortDetailsResponse fort_details_out_proto = 2;
 
 	enum Result {
 		NO_RESULT_SET = 0;

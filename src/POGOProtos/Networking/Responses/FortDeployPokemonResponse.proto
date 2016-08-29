@@ -1,15 +1,15 @@
 syntax = "proto3";
 package POGOProtos.Networking.Responses;
 
-import "POGOProtos/Data/PokemonData.proto";
 import "POGOProtos/Data/Gym/GymState.proto";
+import "POGOProtos/Data/PokemonData.proto";
 import "POGOProtos/Networking/Responses/FortDetailsResponse.proto";
 
 message FortDeployPokemonResponse {
-	.POGOProtos.Networking.Responses.FortDeployPokemonResponse.Result result = 1;
-	.POGOProtos.Networking.Responses.FortDetailsResponse fort_details = 2;
-	.POGOProtos.Data.PokemonData pokemon_data = 3;
-	.POGOProtos.Data.Gym.GymState gym_state = 4;
+	Result result = 1;
+	.POGOProtos.Networking.Responses.FortDetailsResponse fort_details_out_proto = 2;
+	.POGOProtos.Data.PokemonData egg_pokemon = 3;
+	.POGOProtos.Data.Gym.GymState gym_state_proto = 4;
 
 	enum Result {
 		NO_RESULT_SET = 0;

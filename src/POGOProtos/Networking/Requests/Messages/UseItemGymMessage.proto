@@ -4,8 +4,8 @@ package POGOProtos.Networking.Requests.Messages;
 import "POGOProtos/Inventory/Item/ItemId.proto";
 
 message UseItemGymMessage {
-	.POGOProtos.Inventory.Item.ItemId item_id = 1;
+	.POGOProtos.Inventory.Item.ItemId item = 1;
 	string gym_id = 2;
-	double player_latitude = 3;
-	double player_longitude = 4;
+	double player_lat_degrees = 3;
+	double player_lng_degrees = 4;
 }

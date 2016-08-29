@@ -1,6 +1,6 @@
 syntax = "proto3";
 package POGOProtos.Networking.Requests.Messages;
 
-message CheckChallengeMessage {
+message CheckChallenge {
 	bool debug_request = 1;
 }

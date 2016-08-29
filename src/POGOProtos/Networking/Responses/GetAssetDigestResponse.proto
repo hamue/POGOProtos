@@ -5,5 +5,5 @@ import "POGOProtos/Data/AssetDigestEntry.proto";
 
 message GetAssetDigestResponse {
 	repeated .POGOProtos.Data.AssetDigestEntry digest = 1;
-	uint64 timestamp_ms = 2;
+	uint64 timestamp = 2;
 }

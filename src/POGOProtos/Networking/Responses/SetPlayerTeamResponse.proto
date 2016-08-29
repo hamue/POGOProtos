@@ -4,8 +4,8 @@ package POGOProtos.Networking.Responses;
 import "POGOProtos/Data/PlayerData.proto";
 
 message SetPlayerTeamResponse {
-	.POGOProtos.Networking.Responses.SetPlayerTeamResponse.Status status = 1;
-	.POGOProtos.Data.PlayerData player_data = 2;
+	Status status = 1;
+	.POGOProtos.Data.PlayerData player = 2;
 
 	enum Status {
 		UNSET = 0;

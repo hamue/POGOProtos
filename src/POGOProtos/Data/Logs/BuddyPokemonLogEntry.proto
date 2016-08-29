@@ -4,8 +4,8 @@ package POGOProtos.Data.Logs;
 import "POGOProtos/Enums/PokemonId.proto";
 
 message BuddyPokemonLogEntry {
-	.POGOProtos.Data.Logs.BuddyPokemonLogEntry.Result result = 1;
-	.POGOProtos.Enums.PokemonId pokemon_id = 2;
+	Result result = 1;
+	.POGOProtos.Enums.PokemonId pokemon_type = 2;
 	int32 amount = 3;
 
 	enum Result {
