@@ -122,15 +122,15 @@ Run `python compile.py` to recursively compile everything.
 ### Pre-compiled POGOProtos
 If you don't want to compile **POGOProtos** but instead use it directly, check out the following repositories.
 
- | Language         | Source                                                  |
- |------------------|---------------------------------------------------------|
- | .NET             | https://github.com/johnduhart/POGOProtos-dotnet         |
- | Go               | https://github.com/pogodevorg/POGOProtos-go             |
- | Haskell          | https://github.com/relrod/pokemon-go-protobuf-types     |
- | NodeJS           | https://github.com/rastapasta/node-pokemongo-protobuf   |
- | NodeJS (pure JS) | https://github.com/cyraxx/node-pogo-protos              |
- | PHP              | https://github.com/jaspervdm/pogoprotos-php             |
- | Rust             | https://github.com/rockneurotiko/pokemon-go-protobuf-rs |
+| Language         | Source                                                  |
+|------------------|---------------------------------------------------------|
+| .NET             | https://github.com/johnduhart/POGOProtos-dotnet         |
+| Go               | https://github.com/pogodevorg/POGOProtos-go             |
+| Haskell          | https://github.com/relrod/pokemon-go-protobuf-types     |
+| NodeJS           | https://github.com/rastapasta/node-pokemongo-protobuf   |
+| NodeJS (pure JS) | https://github.com/cyraxx/node-pogo-protos              |
+| PHP              | https://github.com/jaspervdm/pogoprotos-php             |
+| Rust             | https://github.com/rockneurotiko/pokemon-go-protobuf-rs |
 
 ## Licensing
 [GNU GPL](https://github.com/pogodevorg/POGOProtos/blob/master/LICENSE) v3 or later.
