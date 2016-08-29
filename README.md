@@ -122,7 +122,6 @@ Run `python compile.py` to recursively compile everything.
 ### Pre-compiled POGOProtos
 If you don't want to compile **POGOProtos** but instead use it directly, check out the following repositories.
 
-
 | Language         | Source                                                  |
 |------------------|---------------------------------------------------------|
 | .NET             | https://github.com/johnduhart/POGOProtos-dotnet         |
